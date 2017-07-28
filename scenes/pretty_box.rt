@@ -1,0 +1,72 @@
+[RTscene]1.0
+<author name='ttrossea' date=25/05/2017>
+<scene name='Simple sphere'>
+	<cam name='Cameraman'>
+		pos=0:2:2
+		rot=0:0:0
+		dim=1280:720
+	</cam>
+
+	<obj name='Plan bas'>
+		type='plane'
+		pos=0:-50:0
+		rot=0.0:0.0:0.0
+		color=0.5:0.5:0.5
+		refl=1
+		rough=0.5
+		mtl_type=1
+	</obj>
+	<obj name='Plan haut'>
+		type='plane'
+		pos=0:50:0
+		rot=0.0:0.0:0.0
+		color=0.5:0.5:0.5
+		refl=1
+		rough=0.5
+		mtl_type=1
+	</obj>
+	<obj name='Plan gauche'>
+		type='plane'
+		pos=-50:0:0
+		rot=0.0:0.0:90.0
+		color=0.5:0.5:0.5
+		refl=1
+		rough=0.5
+		mtl_type=1
+	</obj>
+	<obj name='Plan droite'>
+		type='plane'
+		pos=50:0:0
+		rot=90.0:0.0:90.0
+		color=0.5:0.5:0.5
+		refl=1
+		rough=0.5
+		mtl_type=1
+	</obj>
+	<obj name='Plan fond'>
+		type='plane'
+		pos=0:0:50
+		rot=90.0:0.0:0.0
+		color=0.5:0.5:0.5
+		refl=1
+		rough=0.5
+		mtl_type=1
+	</obj>
+	<obj name='Plan arriere'>
+		type='plane'
+		pos=0:0:50
+		rot=90.0:0.0:0.0
+		color=0.5:0.5:0.5
+		refl=1
+		rough=0.5
+		mtl_type=1
+	</obj>
+
+
+	<lgt name='Sun'>
+		type=0
+		pos=5:10:0
+		color=1:1:1
+		intensity=5
+	</lgt>
+</scene>

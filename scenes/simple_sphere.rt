@@ -1,0 +1,279 @@
+[RTscene]1.0
+<author name='ttrossea' date=25/05/2017>
+<scene name='Demo Scene'>
+	<cam name='Cameraman'>
+		pos=-10:2:-200
+		rot=0:0:0
+		dim=1280:720
+	</cam>
+
+	<obj name='c'>
+		type='cylindre'
+		pos=100.0:0:50
+		rot=0.0:0.0:0.0
+		ray=5
+		color=0.01:0.2:0.9
+		refl=0.9
+		rough=0.2
+		mtl_type=1
+	</obj>
+
+	<obj name='c'>
+		type='cylindre'
+		pos=-100:0:50
+		rot=0.0:0.0:0.0
+		ray=5
+		color=0.5:0.5:0.5
+		refl=0.9
+		rough=0.5
+		mtl_type=1
+	</obj>
+
+	<obj name='c'>
+		type='cylindre'
+		pos=100.0:0:0
+		rot=0.0:0.0:0.0
+		ray=5
+		color=0.01:0.2:0.9
+		refl=0.9
+		rough=0.5
+		mtl_type=1
+	</obj>
+
+	<obj name='c'>
+		type='cylindre'
+		pos=-100:0:-50
+		rot=0.0:0.0:0.0
+		ray=5
+		color=0.5:0.5:0.5
+		refl=0.9
+		rough=0.5
+		mtl_type=1
+	</obj>
+
+	<obj name='GrosPlan'>
+		type='plane'
+		pos=0:-30:0
+		rot=0.0:00.0:0.0
+		color=0.3:0.3:0.3
+		refl=0.9
+		rough=0.5
+		mtl_type=0.01
+	</obj>
+
+	<obj name='GrosPlan'>
+		type='plane'
+		pos=-500:-30:0
+		rot=0.0:00.0:-45.0
+		color=0.3:0.3:0.3
+		refl=0.7
+		rough=0.5
+		mtl_type=0.01
+	</obj>
+
+	<obj name='GrosPlan'>
+		type='plane'
+		pos=500:-30:0
+		rot=0.0:00.0:45.0
+		color=0.3:0.3:0.3
+		refl=0.9
+		rough=0.5
+		mtl_type=0.01
+	</obj>
+
+	<obj name='Cone'>
+        type='cone'
+        pos=0:0:50
+        rot=0.0:0.0:0.0
+        angle=25
+        color=0.5:0.5:0.5
+        refl=0.7
+        rough=0.1
+        mtl_type=1
+    </obj>
+
+	<obj name='Grosse Sphere bleu'>
+		type='sphere'
+		pos=0:0:-7
+		rot=90:0.0:0.0
+		ray=3
+		color=0.7:0.7:0.7
+		refl=0.9
+		rough=0.19
+		mtl_type=0.01
+	</obj>
+
+	<obj name='Grosse Sphere bleu'>
+		type='sphere'
+		pos=0:0:0
+		rot=90:0.0:0.0
+		ray=3
+		color=0.5:0.5:0.5
+		refl=0.5
+		rough=0.01
+		mtl_type=1
+	</obj>
+
+	<obj name='Grosse Sphere bleu'>
+		type='sphere'
+		pos=-7:0:0
+		rot=90:0.0:0.0
+		ray=2.5
+		color=0.5:0.5:0.5
+		refl=0.9
+		rough=0.01
+		mtl_type=1
+	</obj>
+
+	<lgt name='Sun'>
+		type=0
+		pos=-55:50:0
+		color=1:1:1
+		intensity=50
+	</lgt>
+</scene>
+<scene name='Abracadabra'>
+	<cam name='Cameraman'>
+		pos=0:0:0
+		rot=0:0:0
+		dim=800:600
+	</cam>
+	<cam name='Spy'>
+		pos=0:2:-2
+		rot=0:0:0
+		dim=800:600
+	</cam>
+	<obj name='cone'>
+		type='cone'
+		pos=1:0:10
+		rot=0.0:0.0:0.0
+		ray=5
+		color=0.5:0.5:0.5
+		refl=0.5
+		rough=0.5
+		mtl_type=0.5
+	</obj>
+	<obj name='cone'>
+		type='cylindre'
+		pos=-3.2:-5:15
+		rot=15.0:0.0:45.0
+		ray=5
+		color=0.5:0.5:0.5
+		refl=0.5
+		rough=0.5
+		mtl_type=0.5
+	</obj>
+	<cam name='FarAway'>
+		pos=4:0:-10
+		rot=0:0:0
+		dim=800:600
+	</cam>
+	<obj name='Grosse Sphere bleu'>
+		type='sphere'
+		pos=0:0:20
+		rot=90:0.0:0.0
+		ray=1
+		color=0.5:0.5:0.5
+		refl=0.5
+		rough=0.5
+		mtl_type=0.5
+	</obj>
+	<obj name='Repere'>
+		type='sphere'
+		pos=0:0:0
+		rot=90:0.0:0.0
+		ray=1
+		color=0.5:0.5:0.5
+		refl=0.5
+		rough=0.5
+		mtl_type=0.5
+	</obj>
+	<lgt name='Sun'>
+		type=0
+		pos=0:12:10
+		color=1:0:1
+		intensity=20
+	</lgt>
+</scene>
+<scene name='bolognaise test'>
+	<obj name='parabolognaise'>
+		type='paraboloid'
+		pos=0:10:4
+		ray=90
+		color=0.5:0.5:0.5
+		refl=0.5
+		rough=0.5
+		mtl_type=0.5
+	</obj>
+	<obj name='parabolognaise'>
+		type='paraboloid'
+		pos=0:0:0
+		ray=90
+		color=0.5:0.5:0.5
+		refl=0.5
+		rough=0.5
+		mtl_type=0.5
+	</obj>
+	<lgt name='Sun'>
+		type=0
+		pos=0:12:10
+		color=1:0:1
+		intensity=20
+	</lgt>
+	<cam name='Cameraman'>
+		pos=0:0:-70
+		rot=0:0:0
+		dim=800:600
+	</cam>
+</scene>
+<scene name='BOUBOULE'>
+	<cam name='Cameraman'>
+		pos=0:0:-10
+		rot=0:0:0
+		dim=800:600
+	</cam>
+
+	<cam name='Spy'>
+		pos=0:2:-2
+		rot=0:0:0
+		dim=800:600
+	</cam>
+
+	<obj name='Grosse Sphere bleu'>
+		type='sphere'
+		pos=0:0:0
+		rot=0:0.0:0.0
+		ray=1
+		color=0.5:0.5:0.5
+		refl=0.5
+		rough=0.5
+		mtl_type=0.5
+	</obj>
+	<obj name='Grosse Sphere bleu'>
+		type='sphere'
+		pos=2:0:5
+		rot=0:0.0:0.0
+		ray=1
+		color=0.5:0.5:0.5
+		refl=0.5
+		rough=0.5
+		mtl_type=0.5
+	</obj>
+	<obj name='Grosse Sphere bleu'>
+		type='sphere'
+		pos=-2:0:5
+		rot=0:0.0:0.0
+		ray=1
+		color=0.5:0.5:0.5
+		refl=0.5
+		rough=0.5
+		mtl_type=0.5
+	</obj>
+
+	<lgt name='Sun'>
+		type=0
+		pos=0:12:10
+		color=1:0:1
+		intensity=20
+	</lgt>
+</scene>

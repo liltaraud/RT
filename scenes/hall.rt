@@ -1,0 +1,500 @@
+[RTscene]1.0
+
+<author name='fdeclerc' date=25/05/2017>
+
+<scene name='Hall 1'>
+	<cam name='Cameraman'>
+		pos=0:0:-50
+		rot=0:0:0
+		dim=1280:720
+	</cam>
+
+	<obj name='Plane_low'>
+		type='plane'
+		pos=0:-50:0
+		rot=0.0:0.0:0.0
+		color=0.9:0.9:0.9
+		refl=0.5
+		rough=0.5
+		mtl_type=0.1
+	</obj>
+
+	<obj name='Plane_top'>
+		type='plane'
+		pos=0:50:0
+		rot=0.0:0.0:0.0
+		color=0.9:0.9:0.9
+		refl=0.5
+		rough=0.5
+		mtl_type=0.1
+	</obj>
+
+	<obj name='Plane_behind'>
+		type='plane'
+		pos=0:0:-150
+		rot=0.0:90.0:90.0
+		color=0.2:0.8:0.2
+		refl=0.5
+		rough=0.9
+		mtl_type=1
+	</obj>
+
+	<obj name='Plane_front'>
+		type='plane'
+		pos=0:0:150
+		rot=0.0:90.0:90.0
+		color=0.8:0.8:0.8
+		refl=0.5
+		rough=0.5
+		mtl_type=0.1
+	</obj>
+
+	<obj name='Plane_left'>
+		type='plane'
+		pos=-60:0:0
+		rot=0.0:0.0:90.0
+		color=0.2:0.8:0.8
+		refl=0.9
+		rough=0.5
+		mtl_type=1
+	</obj>
+
+	<obj name='Plane_right'>
+		type='plane'
+		pos=60:0:0
+		rot=0.0:0.0:90.0
+		color=0.2:0.8:0.8
+		refl=0.9
+		rough=0.5
+		mtl_type=1
+	</obj>
+
+	<obj name='cylindre'>
+		type='cylindre'
+		pos=-30:0:120
+		rot=0.0:0.0:0.0
+		ray=3
+		color=0.9:0.9:0.9
+		refl=0.9
+		rough=0.9
+		mtl_type=1
+	</obj>
+
+	<obj name='cone'>
+		type='cone'
+		pos=-30:0:120
+		rot=0.0:0.0:0.0
+		angle=15
+		color=0.9:0.9:0.9
+		refl=0.9
+		rough=0.9
+		mtl_type=1
+	</obj>
+
+	<obj name='cylindre'>
+		type='cylindre'
+		pos=-30:0:120
+		rot=0.0:0.0:0.0
+		ray=3
+		color=0.9:0.9:0.9
+		refl=0.9
+		rough=0.9
+		mtl_type=1
+	</obj>
+
+	<obj name='cone'>
+		type='cone'
+		pos=-30:0:120
+		rot=0.0:0.0:0.0
+		angle=15
+		color=0.9:0.9:0.9
+		refl=0.9
+		rough=0.9
+		mtl_type=1
+	</obj>
+
+	<obj name='cylindre'>
+		type='cylindre'
+		pos=-30:0:40
+		rot=0.0:0.0:0.0
+		ray=3
+		color=0.9:0.9:0.9
+		refl=0.9
+		rough=0.9
+		mtl_type=1
+	</obj>
+
+	<obj name='cone'>
+		type='cone'
+		pos=-30:0:40
+		rot=0.0:0.0:0.0
+		angle=15
+		color=0.9:0.9:0.9
+		refl=0.9
+		rough=0.9
+		mtl_type=1
+	</obj>
+
+	<obj name='cylindre'>
+		type='cylindre'
+		pos=30:0:120
+		rot=0.0:0.0:0.0
+		ray=3
+		color=0.9:0.9:0.9
+		refl=0.9
+		rough=0.9
+		mtl_type=1
+	</obj>
+
+	<obj name='cone'>
+		type='cone'
+		pos=30:0:120
+		rot=0.0:0.0:0.0
+		angle=15
+		color=0.9:0.9:0.9
+		refl=0.9
+		rough=0.9
+		mtl_type=1
+	</obj>
+
+	<obj name='cylindre'>
+		type='cylindre'
+		pos=30:0:120
+		rot=0.0:0.0:0.0
+		ray=3
+		color=0.9:0.9:0.9
+		refl=0.9
+		rough=0.9
+		mtl_type=1
+	</obj>
+
+	<obj name='cone'>
+		type='cone'
+		pos=30:0:120
+		rot=0.0:0.0:0.0
+		angle=15
+		color=0.9:0.9:0.9
+		refl=0.9
+		rough=0.9
+		mtl_type=1
+	</obj>
+
+	<obj name='cylindre'>
+		type='cylindre'
+		pos=30:0:40
+		rot=0.0:0.0:0.0
+		ray=3
+		color=0.9:0.9:0.9
+		refl=0.9
+		rough=0.9
+		mtl_type=1
+	</obj>
+
+	<obj name='cone'>
+		type='cone'
+		pos=30:0:40
+		rot=0.0:0.0:0.0
+		angle=15
+		color=0.9:0.9:0.1
+		refl=0.9
+		rough=0.9
+		mtl_type=1
+	</obj>
+
+	<obj name='sphere'>
+		type='sphere'
+		pos=0:0:80
+		rot=0.0:0.0:0.0
+		ray=5
+		color=0.9:0.9:0.9
+		refl=0.9
+		rough=0.9
+		mtl_type=0.8
+	</obj>
+
+	<lgt name='Sun'>
+		type=0
+		pos=5:10:0
+		color=1:1:1
+		intensity=20
+	</lgt>
+
+</scene>
+
+<scene name='Hall 2'>
+	<cam name='Cameraman'>
+		pos=0:0:-80
+		rot=0:0:0
+		dim=1280:720
+	</cam>
+
+	<obj name='Plane_low'>
+		type='plane'
+		pos=0:-50:0
+		rot=0.0:0.0:0.0
+		color=0.9:0.9:0.9
+		refl=0.5
+		rough=0.5
+		mtl_type=0.1
+	</obj>
+
+	<obj name='Plane_top'>
+		type='plane'
+		pos=0:50:0
+		rot=0.0:0.0:0.0
+		color=0.9:0.9:0.9
+		refl=0.5
+		rough=0.5
+		mtl_type=0.1
+	</obj>
+
+	<obj name='Plane_behind'>
+		type='plane'
+		pos=0:0:-150
+		rot=0.0:90.0:90.0
+		color=0.2:0.8:0.2
+		refl=0.5
+		rough=0.9
+		mtl_type=1
+	</obj>
+
+	<obj name='Plane_front'>
+		type='plane'
+		pos=0:0:150
+		rot=0.0:90.0:90.0
+		color=0.8:0.8:0.8
+		refl=0.5
+		rough=0.5
+		mtl_type=0.9
+	</obj>
+
+	<obj name='Plane_left'>
+		type='plane'
+		pos=-60:0:0
+		rot=0.0:0.0:90.0
+		color=0.8:0.8:0.8
+		refl=0.9
+		rough=0.5
+		mtl_type=1
+	</obj>
+
+	<obj name='Plane_right'>
+		type='plane'
+		pos=60:0:0
+		rot=0.0:0.0:90.0
+		color=0.8:0.8:0.8
+		refl=0.9
+		rough=0.5
+		mtl_type=1
+	</obj>
+
+	
+	<obj name='sphere'>
+		type='sphere'
+		pos=-60:0:100
+		rot=0.0:0.0:0.0
+		ray=10
+		color=0.9:0.9:0.9
+		refl=0.9
+		rough=0.9
+		mtl_type=0.8
+	</obj>
+
+	<obj name='sphere'>
+		type='sphere'
+		pos=60:-50:100
+		rot=0.0:0.0:0.0
+		ray=10
+		color=0.9:0.9:0.9
+		refl=0.9
+		rough=0.9
+		mtl_type=0.8
+	</obj>
+
+	<obj name='cylindre'>
+		type='cylindre'
+		pos=-60:0:100
+		rot=0.0:0.0:90.0
+		ray=5
+		color=0.9:0.9:0.9
+		refl=0.9
+		rough=0.9
+		mtl_type=1
+	</obj>
+
+	<obj name='sphere'>
+		type='sphere'
+		pos=0:0:100
+		rot=0.0:0.0:0.0
+		ray=10
+		color=0.9:0.01:0.01
+		refl=0.9
+		rough=0.9
+		mtl_type=0.8
+	</obj>
+
+	<obj name='cone'>
+		type='cone'
+		pos=25:0:100
+		rot=0.0:0.0:0.0
+		angle=20
+		color=0.9:0.9:0.9
+		refl=0.9
+		rough=0.9
+		mtl_type=1
+	</obj>
+
+	<obj name='cone'>
+		type='cone'
+		pos=-25:0:100
+		rot=0.0:0.0:0.0
+		angle=20
+		color=0.9:0.9:0.9
+		refl=0.9
+		rough=0.9
+		mtl_type=1
+	</obj>
+
+	<lgt name='Sun'>
+		type=0
+		pos=5:10:0
+		color=1:1:1
+		intensity=20
+	</lgt>
+
+</scene>
+
+<scene name='Hall 3'>
+	<cam name='Cameraman'>
+		pos=0:0:-80
+		rot=0:0:0
+		dim=1280:720
+	</cam>
+
+	<obj name='Plane_low'>
+		type='plane'
+		pos=0:-50:0
+		rot=0.0:0.0:0.0
+		color=0.9:0.9:0.9
+		refl=0.5
+		rough=0.5
+		mtl_type=0.1
+	</obj>
+
+	<obj name='Plane_top'>
+		type='plane'
+		pos=0:50:0
+		rot=0.0:0.0:0.0
+		color=0.9:0.9:0.9
+		refl=0.5
+		rough=0.5
+		mtl_type=0.1
+	</obj>
+
+	<obj name='Plane_behind'>
+		type='plane'
+		pos=0:0:-150
+		rot=0.0:90.0:90.0
+		color=0.2:0.8:0.2
+		refl=0.5
+		rough=0.9
+		mtl_type=1
+	</obj>
+
+	<obj name='Plane_front'>
+		type='plane'
+		pos=0:0:150
+		rot=0.0:90.0:90.0
+		color=0.8:0.8:0.8
+		refl=0.5
+		rough=0.5
+		mtl_type=0.9
+	</obj>
+
+	<obj name='Plane_left'>
+		type='plane'
+		pos=-60:0:0
+		rot=0.0:0.0:90.0
+		color=0.8:0.8:0.8
+		refl=0.9
+		rough=0.5
+		mtl_type=1
+	</obj>
+
+	<obj name='Plane_right'>
+		type='plane'
+		pos=60:0:0
+		rot=0.0:0.0:90.0
+		color=0.8:0.8:0.8
+		refl=0.9
+		rough=0.5
+		mtl_type=1
+	</obj>
+
+	<obj name='sphere'>
+		type='sphere'
+		pos=0:0:100
+		rot=0.0:0.0:0.0
+		ray=20
+		color=0.01:0.01:0.9
+		refl=0.9
+		rough=0.9
+		mtl_type=0.9
+	</obj>
+
+	<obj name='sphere'>
+		type='sphere'
+		pos=0:0:80
+		rot=0.0:0.0:0.0
+		ray=5
+		color=0.99:0.99:0.99
+		refl=0.9
+		rough=0.9
+		mtl_type=0.9
+		</obj>
+
+	<lgt name='Sun'>
+		type=0
+		pos=-50:0:80
+		color=0.01:1:0.01
+		intensity=20
+	</lgt>
+
+	<lgt name='Sun'>
+		type=0
+		pos=50:0:80
+		color=1:0.01:0.01
+		intensity=20
+	</lgt>
+
+	<lgt name='Sun'>
+		type=0
+		pos=0:0:80
+		color=0.01:0.01:1
+		intensity=20
+	</lgt>
+
+	<obj name='cylindre'>
+		type='cylindre'
+		pos=20:0:100
+		rot=0.0:0.0:0.0
+		ray=5
+		color=0.99:0.99:0.99
+		refl=0.9
+		rough=0.9
+		mtl_type=0.9
+	</obj>
+
+	<obj name='cylindre'>
+		type='cylindre'
+		pos=-20:0:100
+		rot=0.0:0.0:0.0
+		ray=5
+		color=0.99:0.99:0.99
+		refl=0.9
+		rough=0.9
+		mtl_type=0.9
+	</obj>
+	
+
+</scene>
