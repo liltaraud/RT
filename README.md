@@ -1,5 +1,6 @@
 # RT
-A real-time raytracer written in C, using OpenCL and SDL2
+A real-time raytracer written in C, using OpenCL and SDL2.
+Tested to run only on MacOS. I cannot guarantee it's behavior on any other OS.
 
 This is a collaboration of 4 people.
 Henrik Caspar, Florian Declerck, Théophile Trosseau, and me.
